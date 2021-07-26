@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab4.MainLab4">
+
+    <ImageView
+        android:id="@+id/lab4_2"
+        android:layout_width="512dp"
+        android:layout_height="512dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-70dp"
+        android:layout_marginRight="-100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-112dp"
+        android:background="@drawable/lab4"
+        />
+
+    <ImageView
+        android:id="@+id/group_21"
+        android:layout_width="314dp"
+        android:layout_height="159dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="325dp"
+        android:background="@drawable/textlab4"
+        />
+
+    <ImageView
+        android:onClick="openMenuLab4"
+        android:id="@+id/group_20"
+        android:layout_width="261.11dp"
+        android:layout_height="69.3dp"
+        android:layout_marginTop="541dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/buttonok"
+        />
+
+</RelativeLayout>

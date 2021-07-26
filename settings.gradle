@@ -1,0 +1,2 @@
+rootProject.name = "TKDDLab1_Ps16752"
+include ':app'

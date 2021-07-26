@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menulab1"
+    tools:context=".Lab4.MenuLab4">
+
+    <ImageView
+        android:id="@+id/icons8_left"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/left"/>
+
+    <TextView
+        android:id="@+id/lt"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="Lab: "
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:gravity="top"
+        android:fontFamily="@font/robotomono"
+        />
+
+    <TextView
+        android:fontFamily="@font/robotomono"
+        android:id="@+id/some_id"
+        android:layout_width="46dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:textColor="#949494"
+        android:textSize="15sp"
+        android:text="4"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/icons8_sear"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="335dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/search"
+        />
+
+    <ImageView
+        android:id="@+id/ellipse_1"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/ellipse1"
+        />
+
+    <TextView
+        android:id="@+id/viwhi"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="151dp"
+        android:text="VIWHY"
+        android:fontFamily="@font/rocksaltregular"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/hoang_cong_"
+        android:layout_width="163dp"
+        android:fontFamily="@font/robotomono"
+        android:layout_height="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:text="Hoang Cong Nhut Vy"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:gravity="top"
+        />
+
+    <ImageView
+        android:id="@+id/group_7"
+        android:layout_width="287dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/controllablabmenu"
+        />
+
+    <ImageView
+        android:onClick="bai1Lab4Lesson"
+        android:id="@+id/group_26"
+        android:layout_width="319dp"
+        android:layout_height="111dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="227dp"
+        android:background="@drawable/lab4bai1"
+        />
+
+    <ImageView
+        android:onClick="bai2Lab4Lesson"
+        android:id="@+id/group_25"
+        android:layout_width="150dp"
+        android:layout_height="105dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="349dp"
+        android:background="@drawable/lab4bai2"
+        />
+
+    <ImageView
+        android:onClick="bai3Lab4Lesson"
+        android:id="@+id/group_24"
+        android:layout_width="150dp"
+        android:layout_height="105dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/lab4bai3"
+        />
+
+    <View
+        android:id="@+id/group_30"
+        android:layout_width="134dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="339dp"
+        android:background="@drawable/lab4_bai4_1"
+        />
+
+    <View
+        android:onClick="bai5Lab4Lesson"
+        android:id="@+id/group_31"
+        android:layout_width="150dp"
+        android:layout_height="105dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/lab4_bai4_2"
+        />
+
+</RelativeLayout>

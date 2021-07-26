@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FCCE"
+    tools:context=".ActivityMain.Caselab">
+
+    <ImageView
+        android:id="@+id/icons8_left"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/left"/>
+
+    <TextView
+        android:id="@+id/lt"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="155dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="Case: "
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:gravity="top"
+        android:fontFamily="@font/robotomono"
+        />
+
+    <TextView
+        android:fontFamily="@font/robotomono"
+        android:id="@+id/some_id"
+        android:layout_width="46dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:textColor="#949494"
+        android:textSize="15sp"
+        android:text="Lab"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/icons8_sear"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="335dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/search"
+        />
+
+    <ImageView
+        android:id="@+id/ellipse_1"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/ellipse1"
+        />
+
+    <TextView
+        android:id="@+id/viwhi"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="151dp"
+        android:text="VIWHY"
+        android:fontFamily="@font/rocksaltregular"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/hoang_cong_"
+        android:layout_width="163dp"
+        android:fontFamily="@font/robotomono"
+        android:layout_height="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:text="Hoang Cong Nhut Vy"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:gravity="top"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="240dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:onClick="openLab1"
+                android:id="@+id/group_16"
+                android:layout_width="354dp"
+                android:layout_height="92dp"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/lab1com"
+                />
+            
+            <ImageView
+                android:onClick="openLab2"
+                android:id="@+id/group_10"
+                android:layout_width="365dp"
+                android:layout_height="171dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/lab2com"
+                />
+
+            <ImageView
+                android:id="@+id/group_12"
+                android:layout_width="399dp"
+                android:layout_height="203dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="-23dp"
+                android:layout_marginTop="160dp"
+                android:onClick="openLab3"
+                android:background="@drawable/lab3com" />
+
+            <ImageView
+                android:onClick="openLab4"
+                android:id="@+id/group_13"
+                android:layout_width="402dp"
+                android:layout_height="101dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="309dp"
+                android:background="@drawable/lab4com" />
+
+            <ImageView
+                android:onClick="openLab5"
+                android:id="@+id/group_14"
+                android:layout_width="396dp"
+                android:layout_height="197dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="-19dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="350dp"
+                android:background="@drawable/lab5com"
+                />
+            
+            <ImageView
+                android:onClick="openLab6"
+                android:id="@+id/group_19"
+                android:layout_width="385dp"
+                android:layout_height="118dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="-11dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="515dp"
+                android:background="@drawable/lab6com"
+                />
+
+            <ImageView
+                android:onClick="openLab7"
+                android:id="@+id/group_17"
+                android:layout_width="363dp"
+                android:layout_height="121dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="12dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="600dp"
+                android:background="@drawable/lab7com"
+                />
+
+            <ImageView
+                android:onClick="openLab8"
+                android:id="@+id/group_18"
+                android:layout_width="353dp"
+                android:layout_height="96dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="23dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="720dp"
+                android:background="@drawable/lab8com"
+                />
+
+            <ImageView
+                android:id="@+id/group_20"
+                android:layout_width="353dp"
+                android:layout_height="96dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="23dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="800dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/group_7"
+        android:layout_width="287dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/controllab"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Open Menu"
+        android:id="@+id/openmenu"/>
+    <item android:title="Open Lab 1"
+        android:id="@+id/openlab1"/>
+    <item android:title="Open Lab 2"
+        android:id="@+id/openlab2"/>
+    <item android:title="Open Lab 3"
+        android:id="@+id/openlab3"/>
+</menu>

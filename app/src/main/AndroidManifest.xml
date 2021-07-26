@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tkddlab1_ps16752">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ALL UX UI"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TKDDLab1_Ps16752">
+        <activity android:name=".Lab5.Lab5_Bai4">
+        </activity>
+        <activity android:name=".Lab5.Lession_Lab5_Bai4" />
+        <activity android:name=".Lab5.Lab5_Bai3" />
+        <activity android:name=".Lab5.Lession_Lab5_Bai3" />
+        <activity android:name=".Lab5.Lab5_Bai2" />
+        <activity android:name=".Lab5.Lession_Lab5_Bai2" />
+        <activity android:name=".Lab5.Lab5_Bai1" />
+        <activity android:name=".Lab5.Lession_Lab5_Bai1" />
+        <activity android:name=".Lab4.Lab4_Bai5" />
+        <activity android:name=".Lab4.Lession_Lab4_Bai5" />
+        <activity android:name=".Lab4.Lab4_Bai4" />
+        <activity android:name=".Lab4.Lesstion_Lab4_Bai4" />
+        <activity android:name=".Lab4.Lab4_Bai3" />
+        <activity android:name=".Lab4.Lession_Lab4_Bai3" />
+        <activity android:name=".Lab4.Lab4_Bai2" />
+        <activity android:name=".Lab4.Lession_Lab4_Bai2" />
+        <activity
+            android:name=".Lab4.Lab4_Bai1"
+            android:parentActivityName=".Lab4.MenuLab4" />
+        <activity android:name=".Lab4.Lession_Lab4_Bai1" />
+        <activity android:name=".Lab3.Bai4" />
+        <activity android:name=".Lab3.GridViewLogo" />
+        <activity android:name=".Lab3.SpinnerSllide3" />
+        <activity android:name=".Lab3.Slide3" />
+        <activity android:name=".Lab2.Lab2_Bai4" />
+        <activity android:name=".Lab2.Lession_Lab2_Bai4" />
+        <activity android:name=".Lab2.Lab2_Bai3" />
+        <activity android:name=".Lab2.Lession_Lab2_Bai3" />
+        <activity android:name=".Lab2.Lab2_Bai2" />
+        <activity android:name=".Lab2.Lession_Lab2_Bai2" />
+        <activity android:name=".Lab2.Lab2_Bai1" />
+        <activity android:name=".Lab2.Lession_Lab2_Bai1" />
+        <activity android:name=".ASM.SlideShowActivity" />
+        <activity android:name=".Lab1.Lab1_Bai4" />
+        <activity android:name=".Lab1.Lession_Lab1_bai4" />
+        <activity android:name=".Lab1.Lab1_Bai3" />
+        <activity android:name=".Lab1.Lession_Lab1_Bai3" />
+        <activity android:name=".Lab1.Lab1_Bai2" />
+        <activity android:name=".Lab1.Lession_Lab1_Bai2" />
+        <activity android:name=".Lab1.Lession_Lab1_Bai1" />
+        <activity android:name=".Lab1.Lab1_Bai1" />
+        <activity android:name=".Lab8.MenuLab8" />
+        <activity android:name=".Lab7.MenuLab7" />
+        <activity android:name=".Lab6.MenuLab6" />
+        <activity android:name=".Lab5.MenulLab5" />
+        <activity android:name=".Lab4.MenuLab4" />
+        <activity android:name=".Lab3.MenuLab3" />
+        <activity android:name=".Lab2.MenuLab2" />
+        <activity android:name=".Lab1.MenuLab1" />
+        <activity android:name=".Lab8.MainLab8" />
+        <activity android:name=".Lab7.MainLab7" />
+        <activity android:name=".Lab6.MainLab6" />
+        <activity android:name=".Lab5.MainLab5" />
+        <activity android:name=".Lab4.MainLab4" />
+        <activity android:name=".Lab3.MainLab3" />
+        <activity android:name=".Lab2.MainLab2" />
+        <activity android:name=".Lab1.MainLab1" />
+        <activity android:name=".ActivityMain.Caselab" />
+        <activity android:name=".ActivityMain.MainMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
