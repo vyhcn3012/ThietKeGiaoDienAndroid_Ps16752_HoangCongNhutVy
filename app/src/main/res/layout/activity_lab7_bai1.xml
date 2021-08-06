@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#B3FF66"
+    android:id="@+id/coordinator_layout"
+    android:layout_height="match_parent"
+    tools:context=".Lab7.Lab7_Bai1">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/group_35"
+        android:layout_width="193dp"
+        android:layout_height="173dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/lab7_1"
+        />
+
+    <ImageView
+        android:id="@+id/group_37"
+        android:layout_width="210dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/lab1_2"
+        />
+
+    <ImageView
+        android:id="@+id/rectangle_1"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="254dp"
+        android:background="@drawable/lab7_2"
+        />
+
+    <ImageView
+        android:id="@+id/group_36"
+        android:layout_width="131dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="161dp"
+        android:background="@drawable/lab1_3"
+        />
+
+    <ImageView
+        android:id="@+id/btn_Ok"
+        android:layout_width="137dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="130dp"
+        android:background="@drawable/lab1_bai1_5"
+        android:elevation="4dp" />
+
+    <ImageView
+        android:onClick="bai2Lab7Lesson"
+        android:id="@+id/group_40"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="290dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/arrow"
+        />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

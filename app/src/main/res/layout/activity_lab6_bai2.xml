@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#AA66FF"
+    android:layout_height="match_parent"
+    tools:context=".Lab6.Lab6_Bai2">
+
+    <ImageView
+        android:id="@+id/group_35"
+        android:layout_width="193dp"
+        android:layout_height="173dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/lab6_3"
+        />
+
+    <ImageView
+        android:id="@+id/group_37"
+        android:layout_width="210dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/lab1_bai2_2"
+        />
+
+    <ImageView
+        android:id="@+id/group_36"
+        android:layout_width="131dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="161dp"
+        android:background="@drawable/lab1_3"
+        />
+
+    <ImageView
+        android:id="@+id/rectangle_1"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="254dp"
+        android:background="@drawable/lab6_4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="465dp"
+        android:layout_marginTop="290dp">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentleft"
+            android:name="com.example.tkddlab1_ps16752.Lab6.EditTextFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"/>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:name="com.example.tkddlab1_ps16752.Lab6.RightFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:id="@+id/rightFrame"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ImageView
+        android:onClick="Openbai3Lab6"
+        android:id="@+id/group_40"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="290dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/arrow"
+        />
+
+</RelativeLayout>

@@ -9,8 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TKDDLab1_Ps16752">
-        <activity android:name=".Lab5.Lab5_Bai4">
+        <activity android:name=".Lab8.Lab8_Bai2">
         </activity>
+        <activity android:name=".Lab8.Lab8_Bai1">
+        </activity>
+        <activity android:name=".Lab7.Lab7_Bai5" />
+        <activity android:name=".Lab7.Lession_Lab7_Bai5" />
+        <activity android:name=".Lab7.Lab7_Bai4" />
+        <activity android:name=".Lab7.Lession_Lab7_Bai4" />
+        <activity android:name=".Lab7.Lab7_Bai3" />
+        <activity android:name=".Lab7.Lession_Lab7_Bai3" />
+        <activity android:name=".Lab7.Lab7_Bai2" />
+        <activity android:name=".Lab7.Lession_Lab7_Bai2" />
+        <activity android:name=".Lab7.Lab7_Bai1" />
+        <activity android:name=".Lab7.Lesson_Lab7_Bai1" />
+        <activity android:name=".Lab6.Lab6_Bai3" />
+        <activity android:name=".Lab6.Lab6_Bai2" />
+        <activity android:name=".Lab6.Lession_Lab6_Bai2" />
+        <activity android:name=".Lab6.Lab6_Bai1" />
+        <activity android:name=".Lab6.Lession_Lab6_Bai1" />
+        <activity android:name=".Lab5.Lab5_Bai4" />
         <activity android:name=".Lab5.Lession_Lab5_Bai4" />
         <activity android:name=".Lab5.Lab5_Bai3" />
         <activity android:name=".Lab5.Lession_Lab5_Bai3" />
@@ -68,7 +86,7 @@
         <activity android:name=".Lab2.MainLab2" />
         <activity android:name=".Lab1.MainLab1" />
         <activity android:name=".ActivityMain.Caselab" />
-        <activity android:name=".ActivityMain.MainMenu">
+        <activity android:name=".ActivityMain.MainMenu" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

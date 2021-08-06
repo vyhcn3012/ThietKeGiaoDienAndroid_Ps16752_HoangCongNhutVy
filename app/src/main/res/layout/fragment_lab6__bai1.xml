@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lab6.Lab6_Bai1">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentleft"
+        android:name="com.example.tkddlab1_ps16752.Lab6.RightFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rightFrame"
+        android:layout_weight="1"/>
+</LinearLayout>

@@ -108,6 +108,7 @@
         />
 
     <ImageView
+        android:onClick="bai1Lab6Lesson"
         android:id="@+id/group_26"
         android:layout_width="319dp"
         android:layout_height="111dp"
@@ -119,6 +120,7 @@
         />
 
     <ImageView
+        android:onClick="bai2Lab6Lesson"
         android:id="@+id/group_25"
         android:layout_width="150dp"
         android:layout_height="105dp"
@@ -130,6 +132,7 @@
         />
 
     <ImageView
+        android:onClick="bai3Lab6Lesson"
         android:id="@+id/group_24"
         android:layout_width="150dp"
         android:layout_height="105dp"

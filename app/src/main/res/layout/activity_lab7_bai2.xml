@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3FF66"
+    tools:context=".Lab7.Lab7_Bai2">
+
+    <ImageView
+        android:id="@+id/group_35"
+        android:layout_width="193dp"
+        android:layout_height="173dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/lab7_1"
+        />
+
+    <ImageView
+        android:id="@+id/group_37"
+        android:layout_width="210dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/lab1_bai2_2"
+        />
+
+    <ImageView
+        android:id="@+id/group_36"
+        android:layout_width="131dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="161dp"
+        android:background="@drawable/lab1_3"
+        />
+
+    <ImageView
+        android:id="@+id/rectangle_1"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="254dp"
+        android:background="@drawable/lab7_2"
+        />
+
+    <ImageView
+        android:onClick="bai3Lab7Lesson"
+        android:id="@+id/group_40"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="290dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/arrow"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        app:counterMaxLength="20"
+        app:counterEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        app:helperText="Required*"
+        android:id="@+id/edTextname"
+        app:helperTextTextColor="#ff00"
+        android:layout_marginTop="300dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColorHint="@color/black"
+            android:hint="Name"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        app:counterMaxLength="20"
+        app:counterEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        app:helperText="Required*"
+        android:id="@+id/edTextEmail"
+        app:helperTextTextColor="#ff00"
+        android:layout_marginTop="390dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColorHint="@color/black"
+            android:hint="Email"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_baseline_pass_24"
+        app:helperText="Required*"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        android:id="@+id/edTextPass"
+        app:helperTextTextColor="#ff00"
+        android:layout_marginTop="480dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColorHint="@color/black"
+            android:hint="Password"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="580dp"/>
+
+</RelativeLayout>

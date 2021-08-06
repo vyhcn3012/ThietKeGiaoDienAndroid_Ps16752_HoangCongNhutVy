@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AA66FF"
+    tools:context=".Lab6.Lession_Lab6_Bai1">
+
+
+    <ImageView
+        android:id="@+id/group_35"
+        android:layout_width="193dp"
+        android:layout_height="173dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/lab6_3"
+        />
+
+    <ImageView
+        android:id="@+id/group_37"
+        android:layout_width="210dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/lab1_2"
+        />
+
+    <ImageView
+        android:id="@+id/group_36"
+        android:layout_width="131dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="161dp"
+        android:background="@drawable/lab1_3"
+        />
+
+    <ImageView
+        android:id="@+id/rectangle_1"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="254dp"
+        android:background="@drawable/lab6_4"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Bài 1 (2 điểm)Viết chương trình trên layout chính tạo vùng chứa fragment trái và phải. Vùng trái tạo 1 fragment có 2 button. Khi nhấn button sẽ nạp các fragment khác nhau vào vùng phải. Như hình bên dưới."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/group_76"
+        android:layout_width="301dp"
+        android:layout_height="141.21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/lab6_bai1"
+        />
+
+    <ImageView
+        android:onClick="openLab6Bai1"
+        android:id="@+id/group_40"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="290dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/arrow"
+        />
+
+</RelativeLayout>

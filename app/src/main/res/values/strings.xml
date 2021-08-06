@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">TKDDLab1_Ps16752</string>
     <string name="food" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet architecto atque deleniti deserunt distinctio, dolore, est eum facere molestiae quisquam sed, suscipit unde ut vel veniam veritatis voluptates voluptatum.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, at aut beatae debitis dolorem enim error eveniet, nam quae quis quisquam repudiandae soluta, vitae. Blanditiis odio quo recusandae sunt tenetur!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut dicta eaque magni maiores provident. Dolore eius esse ex in laboriosam odio optio repudiandae soluta! Aspernatur consequatur neque nulla quaerat.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto atque consectetur, dolorum esse itaque placeat quam quidem? Corporis exercitationem fugiat omnis quis rerum. Facilis harum minima quod reiciendis saepe.</string>
+    <string name="title_activity_lab8_bai11">Lab8_Bai11</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>
