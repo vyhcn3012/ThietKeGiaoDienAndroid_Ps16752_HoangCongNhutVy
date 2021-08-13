@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.tkddlab1_ps16752">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="ALL UX UI"
+        android:label=""
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TKDDLab1_Ps16752">
-        <activity android:name=".Lab8.Lab8_Bai2">
+        <activity android:name=".ASM.Activity.ThongKe"></activity>
+        <activity android:name=".ASM.Activity.AddKhoanThu1" />
+        <activity android:name=".ASM.NAme.Test" />
+        <activity android:name=".ASM.Activity.UpdateActivity" />
+        <activity android:name=".ASM.Activity.AddActivity" />
+        <activity
+            android:name=".ASM.Activity.LoaiChi"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".ASM.Activity.ChiActivity" />
+        <activity
+            android:name=".ASM.Activity.LoaiThu"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ASM.Activity.KhoanChi"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ASM.Activity.KhoanThu"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".ASM.Activity.MainActivity">
         </activity>
-        <activity android:name=".Lab8.Lab8_Bai1">
-        </activity>
+        <activity android:name=".ASM.Activity.DangNhap" />
+        <activity android:name=".ASM.Activity.DangKy" />
+        <activity android:name=".ASM.Activity.SlideShow" />
+        <activity android:name=".Lab8.Lab8_Bai2" />
+        <activity android:name=".Lab8.Lab8_Bai1" />
         <activity android:name=".Lab7.Lab7_Bai5" />
         <activity android:name=".Lab7.Lession_Lab7_Bai5" />
         <activity android:name=".Lab7.Lab7_Bai4" />
@@ -60,7 +82,6 @@
         <activity android:name=".Lab2.Lession_Lab2_Bai2" />
         <activity android:name=".Lab2.Lab2_Bai1" />
         <activity android:name=".Lab2.Lession_Lab2_Bai1" />
-        <activity android:name=".ASM.SlideShowActivity" />
         <activity android:name=".Lab1.Lab1_Bai4" />
         <activity android:name=".Lab1.Lession_Lab1_bai4" />
         <activity android:name=".Lab1.Lab1_Bai3" />
@@ -86,7 +107,7 @@
         <activity android:name=".Lab2.MainLab2" />
         <activity android:name=".Lab1.MainLab1" />
         <activity android:name=".ActivityMain.Caselab" />
-        <activity android:name=".ActivityMain.MainMenu" >
+        <activity android:name=".ActivityMain.MainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

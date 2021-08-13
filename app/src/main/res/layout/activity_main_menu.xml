@@ -109,6 +109,7 @@
     />
 
     <ImageView
+        android:onClick="openCaseASM"
         android:id="@+id/group_5"
         android:layout_width="130dp"
         android:layout_height="116dp"

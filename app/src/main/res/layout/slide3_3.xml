@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#6DD4C7"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/slide3_1"
+        android:layout_width="336dp"
+        android:layout_height="335dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/slide3_1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/robotomonovariablefontwght"
+        android:text="Kiểm soát từng khoản chi với hệ thống báo cáo chi tiết"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/group_4"
+        android:layout_width="103dp"
+        android:layout_height="14dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/slide3_2"
+        />
+
+</RelativeLayout>

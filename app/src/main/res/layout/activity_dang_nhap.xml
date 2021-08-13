@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ASM.Activity.DangNhap">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/group_7"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/dangky_1"
+        />
+
+    <View
+        android:id="@+id/group_8"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/dangky_2"
+        />
+
+    <View
+        android:id="@+id/group_9"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/dangky_3"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="255dp"
+        android:text="Chúng tôi sẽ không đăng thông tin mà không có sự cho phép của bạn."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/group_16"
+        android:layout_width="160dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/dangky_4"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="303dp"
+        android:layout_centerInParent="true"
+        android:text="HOẶC"
+        android:textColor="@color/black"
+        />
+
+    <View
+        android:id="@+id/group_17"
+        android:layout_width="160dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/dangky_4"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        app:counterMaxLength="20"
+        app:counterEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_email_24"
+        app:helperText="Required*"
+        app:helperTextTextColor="#ff00"
+        android:layout_marginTop="330dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/edTextname"
+            android:textColorHint="@color/black"
+            android:hint="Email"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_baseline_pass_24"
+        app:helperText="Required*"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        app:helperTextTextColor="#ff00"
+        android:layout_marginTop="410dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:textColorHint="@color/black"
+            android:id="@+id/edTextPass"
+            android:hint="Password"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:onClick="openMainActivity"
+        android:id="@+id/group_10"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/dangnhap_1"
+        />
+
+    <TextView
+        android:onClick="openDangKy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Đăng ký"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="560sp"
+        android:textColor="#37DF5C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Quên mật khẩu?"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="560sp"
+        android:textColor="#37DF5C"/>
+</RelativeLayout>

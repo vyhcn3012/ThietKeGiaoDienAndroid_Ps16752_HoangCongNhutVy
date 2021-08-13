@@ -10,6 +10,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.tkddlab1_ps16752.ASM.Activity.DangKy;
+import com.example.tkddlab1_ps16752.ASM.Activity.SlideShow;
+import com.example.tkddlab1_ps16752.ASM.Adapter.SlideAdapter;
 import com.example.tkddlab1_ps16752.Lab5.Lab5_Bai4;
 import com.example.tkddlab1_ps16752.Lab5.MenulLab5;
 import com.example.tkddlab1_ps16752.R;
@@ -29,7 +32,7 @@ public class Lab6_Bai3 extends AppCompatActivity {
         tabLayout = findViewById(R.id.tabLayout);
 
         FragmentManager fManager = getSupportFragmentManager();
-        MyAdapter adapter = new MyAdapter(fManager, getLifecycle());
+        SlideAdapter adapter = new SlideAdapter(fManager, getLifecycle());
         vp2.setAdapter(adapter);
 
         tabLayout.addTab(tabLayout.newTab().setText("RightFrag"));
@@ -65,5 +68,10 @@ public class Lab6_Bai3 extends AppCompatActivity {
         Intent intent = new Intent(Lab6_Bai3.this, MenuLab6.class);
         startActivity(intent);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slidr_in_left);
+    }
+
+    public void openDangky(View v){
+        Intent intent = new Intent(Lab6_Bai3.this, DangKy.class);
+        startActivity(intent);
     }
 }

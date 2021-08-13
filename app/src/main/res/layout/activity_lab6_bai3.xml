@@ -6,12 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Lab6.Lab6_Bai3">
 
-    <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/viewpager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-    </androidx.viewpager2.widget.ViewPager2>
-
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
@@ -22,16 +16,33 @@
         app:layout_constraintTop_toTopOf="parent">
     </com.google.android.material.tabs.TabLayout>
 
-    <ImageView
-        android:onClick="openMenu6"
-        android:id="@+id/group_40"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <View
+        android:onClick="openDangky"
+        android:id="@+id/group_1"
+        android:layout_width="297dp"
+        android:layout_height="45dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="290dp"
+        android:layout_marginLeft="50dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="590dp"
-        android:background="@drawable/arrow"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/slide1_3"
+        />
+
+    <View
+        android:id="@+id/group_2"
+        android:layout_width="297dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/slide1_4"
         />
 
 </RelativeLayout>
